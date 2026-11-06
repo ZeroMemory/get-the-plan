@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Plan Interview"
+  short_description: "Clarify vague work before planning"
+  default_prompt: "Use $deep-plan-interview to reduce ambiguity, define non-goals, and capture decision boundaries before planning."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Review"
+  short_description: "Critique and score development plans"
+  default_prompt: "Use $plan-review to find gaps, vague criteria, missing tests, dependency issues, and execution risks in this plan."

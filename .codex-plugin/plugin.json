@@ -1,0 +1,30 @@
+{
+  "name": "get-the-plan",
+  "version": "0.1.1-local",
+  "description": "A planning workflow plugin for Codex that turns vague development requests into execution-ready plans.",
+  "license": "MIT",
+  "keywords": [
+    "planning",
+    "spec",
+    "prd",
+    "codex",
+    "agents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Get The Plan",
+    "shortDescription": "Turn ideas into execution-ready development plans.",
+    "longDescription": "Get The Plan helps Codex clarify intent, scan the repository, write specs, split work into verifiable tasks, critique plans, and prepare execution handoffs for local work or subagents.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use get-the-plan for this feature",
+      "Review this implementation plan",
+      "Create an agent handoff plan"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

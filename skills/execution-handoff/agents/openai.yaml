@@ -1,0 +1,4 @@
+interface:
+  display_name: "Execution Handoff"
+  short_description: "Prepare local or subagent execution"
+  default_prompt: "Use $execution-handoff to turn this approved plan into task ownership, subagent prompts, review gates, and verification steps."

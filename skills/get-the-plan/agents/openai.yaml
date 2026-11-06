@@ -1,0 +1,4 @@
+interface:
+  display_name: "Get The Plan"
+  short_description: "Create execution-ready development plans"
+  default_prompt: "Use $get-the-plan to scan this repo, clarify blockers, create a plan, lint it, and prepare an execution handoff."
